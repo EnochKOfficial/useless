@@ -1,0 +1,160 @@
+/* CUSTOM FONTS */
+
+@font-face {
+    font-family: broken;
+    src: url(fonts/broken.ttf);
+   }
+  
+  @font-face {
+    font-family: mc;
+    src: url(fonts/mc.otf);
+  }
+  
+  @font-face {
+    font-family: mc-bold;
+    src: url(fonts/mc-bold.ttf);
+  }
+  
+  @font-face {
+    font-family: para;
+    src: url(fonts/paramount.ttf);
+  }
+  
+  @font-face {
+    font-family: para-bold;
+    src: url(fonts/paramount-bold.ttf);
+  }
+ 
+  
+  /* HTML and BODY */
+  
+   html {
+    font-family: para;
+    height: 100%;
+    background-color:#0077ff;
+    overflow: hidden;
+  }
+  
+   body {
+    font-family: para;
+    height: 100%;
+    background-color:#0077ff;
+    overflow: auto;
+  }
+  
+  /* Default Settings */
+  
+  h1 {
+    color:#73b4ff;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: mc-bold;
+    color: white;
+    text-align: center;
+  }
+  
+  h3 {
+    font-family: mc;
+    color: white;
+  }
+  
+  p {
+    font-family: para;
+  }
+  
+  /* Class Settings */
+  
+  /* Title */
+  
+  .title {
+    font-family: para-bold;
+    padding-top: 160px;
+  }
+  
+  .welcome-text {
+    font-family: mc-bold;
+    font-size: medium;
+  }
+  
+  /* Main Title Settings */
+  
+  .main-title {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    font-size:100px;
+    padding-top: 5%;
+    padding-left: 4%;
+  
+  }
+  
+  
+  /* Navbar style */
+  
+  .nav {
+    position: absolute;
+    padding-top: 10px;
+    z-index:1000;
+  }
+  
+  
+  ul {
+    font-family: mc;
+    height: 70px;
+    width: 207%;
+    border-radius: 10px;
+    margin: 0;
+    padding-bottom: 0%;
+    padding-left: 96%;
+    list-style-type:none;
+    overflow: hidden;
+    background-color: ( 90, 255, 214, 0.15);
+    background-color: rgba(0, 255, 170, 0.005);
+    -webkit-backdrop-filter: blur(90px);
+  backdrop-filter: blur(90px);
+  }
+  
+  /* li settings */
+  
+  li {
+    padding-top: 12px;
+   float: left;
+  }
+  
+  li a {
+    display:flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #85d6ff;
+  }
+  
+  
+  /* rights settings */
+  
+   .rights {
+    height: 125px;
+    width: auto;
+    background-color: ( 90, 255, 214, 0.15);
+    background-color: rgb(0, 132, 255);
+    -webkit-backdrop-filter: blur(70px);
+    backdrop-filter: blur(90px);
+    border-bottom-style: solid; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px 3px rgba(0, 0, 0, 0.14);
+   }
+ 
+  
+  .bottom-text {
+    color: white;
+    padding-top: 50px;
+    
+  
+  }
